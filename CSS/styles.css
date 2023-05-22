@@ -144,3 +144,9 @@ p{
         background: #3cfc76;
         text-decoration: none;
       }
+@media (max-width:450px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
