@@ -1,0 +1,146 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.box{
+    flex: 1;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    min-width: 19rem;
+    max-width: 20rem;
+}
+
+.header-basic{
+    background-color: #A0D8B3;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.header-standard{
+    background-color: #B799FF;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.header-premium{
+    background-color: #BE5A83;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.pricing{
+   padding: 10px;
+}
+
+.small{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+}
+.medium{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+}
+.large{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+}
+
+
+h1{
+    margin: 0;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    text-align: left;
+    padding: 10px;
+    margin-left: 5px;
+}
+p{
+    font-size: 14px;
+}
+
+.footer{
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.button-basic{
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 25px;
+        background: #A0D8B3;
+        padding: 15px 20px 15px 20px;
+        text-decoration: none;
+      }
+      
+.button-basic:hover {
+        background: #3cfc76;
+        text-decoration: none;
+      }
+
+.button-standard{
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 25px;
+        background: #B799FF;
+        padding: 15px 20px 15px 20px;
+        text-decoration: none;
+      }
+      
+.button-standard:hover {
+        background: #3cfc76;
+        text-decoration: none;
+      }
+
+.button-premium{
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 10px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 25px;
+        background: #BE5A83;
+        padding: 15px 20px 15px 20px;
+        text-decoration: none;
+      }
+      
+.button-premium:hover {
+        background: #3cfc76;
+        text-decoration: none;
+      }
