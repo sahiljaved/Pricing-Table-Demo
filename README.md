@@ -1,1 +1,2 @@
 # Pricing-Table-Demo
+The pricing table is a well-designed and organized representation of different pricing plans or packages on a website. It uses HTML and CSS to create a visually appealing table with clear sections, plan details, and call-to-action buttons. It helps users compare and select the most suitable plan by presenting information in a structured and easy-to-understand format. Here is a demo design of such table.
